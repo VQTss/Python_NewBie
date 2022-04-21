@@ -1,0 +1,10 @@
+number1 = float(input("Giá trị số thứ nhất: "))
+number2 = float(input("Giá trị số thứ hai : "))
+sum  = number1 + number2
+print(number1,"+",number2,"=",sum)
+sub = number1 - number2
+print(number1,"-",number2,"=",sub)
+mul = number1 *  number2
+print(number1,"*",number2,"=",mul)
+div = number1 / number2
+print(number1,"/",number2,"=",div)

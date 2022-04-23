@@ -1,0 +1,20 @@
+nums = [1,2,3]
+nums.append(3)
+print(nums)
+nums.insert(1,"Python")
+print(nums)
+print(nums.index(1))
+nums.remove("Python")
+print("List after remove Python:",nums)
+nums.reverse()
+print("List reverse:",nums)
+nums = [1,2,3,3]
+print(max(nums))
+print(min(nums))
+print(nums.count(1))
+print(nums.count(3))
+num = [4,5,6]
+msg = "Number: {0} {1} {2}".format(num[0],num[1],num[2])
+print(msg)
+a = "{x},{y}".format(x=5,y=2)
+print(a)

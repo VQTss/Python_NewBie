@@ -1,11 +1,6 @@
-def spell(txt):
-    #your code goes here
-    i = len(txt) - 1
-    while i >= 0:
-      print(txt[i])
-      i -= 1
-    
-    
-
-txt = input()
-spell(txt)
+astr = 'Hello Bob'
+istr = int(astr)
+print('First', istr)
+astr = '123'
+istr = int(astr)
+print('Second', istr)
